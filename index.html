@@ -376,71 +376,85 @@
           </ul>
         </div>
       </section>
-      <section id="contacts">
-        <div>
-          <h2>Online-booking</h2>
-          <form action="">
-            <input type="text" name="name" placeholder="name" />
-            <input type="tel" name="phone" placeholder="phone" />
-            <textarea name="message"></textarea>
+      <section class="contacts section" id="contacts">
+        <div class="container contacts-container">
+          <form class="left-side">
+            <h2 class="title light">Online-booking</h2>
+            <input
+              class="input-name"
+              type="text"
+              name="name"
+              placeholder="name&#42;"
+            />
+            <input
+              class="input-phone"
+              type="tel"
+              name="phone"
+              placeholder="phone&#42;"
+            />
+            <textarea
+              class="input-message"
+              name="message"
+              placeholder="message"
+            ></textarea>
             <button class="btn-booking dark-bg" type="button">send</button>
           </form>
-        </div>
-        <div>
-          <h2>Contacts</h2>
-          <address>
-            <ul>
-              <li>
-                <a href="">st. Vasilkivska, 7A Kyiv, 08132</a>
-              </li>
-              <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-              <li>
-                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
-              </li>
-            </ul>
-          </address>
-          <p class="subtitle subtitle-contacts">Working hours</p>
-          <p>Every day from 9:00 to 22:00</p>
-        </div>
-        <div class="copy">
-          <p>Copyright 2020</p>
-          <ul>
-            <li>
-              <a href="" target="_blank" rel="nofollow noopener noreferrer"
-                >Instagram</a
-              >
-            </li>
-            <li>
-              <a href="" target="_blank" rel="nofollow noopener noreferrer"
-                >Youtube</a
-              >
-            </li>
-          </ul>
+          <div class="right-side">
+            <h2 class="title light">Contacts</h2>
+            <address class="address">
+              <ul>
+                <li class="address-map">
+                  <svg class="map-icon" width="32" height="32">
+                    <use href="./images/sprite.svg#map-pin"></use>
+                  </svg>
+                  <p class="text">st. Vasilkivska, 7A Kyiv, 08132</p>
+                </li>
+                <li class="address-phone">
+                  <svg class="phone-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#phone"></use>
+                  </svg>
+                  <a class="text" href="tel:+380441111111">+38 044 111 11 11</a>
+                </li>
+                <li class="address-mail">
+                  <svg class="mail-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#mail"></use>
+                  </svg>
+                  <a class="text" href="mailto:barbershop@email.com"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="subtitle subtitle-contacts">Working hours</p>
+            <p class="text">Every day from 9:00 to 22:00</p>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <p>&copy;Copyright 2020</p>
-      <ul class="sm-list">
-        <li class="item">
-          <a
-            class="link"
-            href=""
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            >Instagram</a
-          >
-        </li>
-        <li class="item">
-          <a
-            class="link"
-            href=""
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            >Youtube</a
-          >
-        </li>
-      </ul>
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="copy">&copy; Copyright 2020</p>
+        <ul class="sm-list">
+          <li class="item">
+            <a
+              class="link"
+              href=""
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li class="item">
+            <a
+              class="link"
+              href=""
+              target="_blank"
+              rel="nofollow noopener noreferrer"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
